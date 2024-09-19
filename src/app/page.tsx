@@ -1,6 +1,7 @@
 // src/app/page.tsx
 import React from 'react';
-import getUserInfo = require('userinfo_kk'); // Import your npm package
+// const getUserInfo = require('userinfo_kk'); // Import your npm package
+import getUserInfo from 'userinfo_kk';
 
 // Define TypeScript types for the user info
 interface UserInfo {
